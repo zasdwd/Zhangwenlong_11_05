@@ -27,7 +27,6 @@
        app:title_color3="#d1d120"
        app:title_color4="#1a55cc"
        app:title_color5="#608b3f"
-
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_weight="1"/>
