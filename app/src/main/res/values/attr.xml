@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+   <declare-styleable name="LinView">
+       <attr name="title_color" format="color"></attr>
+       <attr name="title_color1" format="color"></attr>
+       <attr name="title_color2" format="color"></attr>
+       <attr name="title_color3" format="color"></attr>
+       <attr name="title_color4" format="color"></attr>
+       <attr name="title_color5" format="color"></attr>
+   </declare-styleable>
+</resources>

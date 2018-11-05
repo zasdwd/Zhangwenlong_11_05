@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar_m"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#ccc">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="课时作业"/>
+</android.support.v7.widget.Toolbar>
+   <com.example.zhangwenlong_11_05.LinView
+       android:id="@+id/sad"
+       app:title_color="#8120d1"
+       app:title_color1="#0ddec2"
+       app:title_color2="#97215c"
+       app:title_color3="#d1d120"
+       app:title_color4="#1a55cc"
+       app:title_color5="#608b3f"
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"/>
+
+</LinearLayout>
